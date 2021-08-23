@@ -3,6 +3,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="index.css" />
+	<script src="index.js"></script>
 	<title>Shoibolina's Portfolio</title>
 	<!-- CSS only -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
@@ -10,11 +12,27 @@
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
 </head>
 <body>
+	<!-- <div class="bumper">Bumper</div>
+	<section class="horizontal-section">
+		<div class="sticky-wrapper">
+			<div class="element-wrapper">
+				<div class="element"></div>
+				<div class="element"></div>
+				<div class="element"></div>
+				<div class="element"></div>
+				<div class="element"></div>
+				<div class="element"></div>
+				
+			</div>
+		</div>
+	</section>
+	<div class="bumper">Bumper</div> -->
 	<!--nav bar-->
 	<table>
 		<tr>
 			<td id="navigation">
 				<a href="#work">Work</a>
+				<a href="#projects">Projects</a>
 				<a href="#about">About Me</a>
 				<a target="_blank" nrel="noopenner norefferrer" href="https://github.com/anilobiohS-ipynb">Github</a>
 				<a href="#contact">Contact</a>
@@ -42,18 +60,70 @@
 	<div id="work">
 		<h1> Work</h1>
 		<div id="photos">
-			<!-- project1 -->
-			<a target="_blank" rel="noopenner norefferrer" href="https://ibb.co/b1z8zPv"><img src="https://i.ibb.co/b1z8zPv/Pic1.jpg" alt="Pic1">
-			<div class="caption">Project One</div>
-			</a>
-			<!-- project2 -->
-			<a target="_blank" rel="noopenner norefferrer" href="https://ibb.co/b1z8zPv"><img src="https://i.ibb.co/b1z8zPv/Pic1.jpg" alt="Pic1">
-			<div class="caption">Project Two</div>
-			</a>
-			<!-- project3 -->
-			<a target="_blank" rel="noopenner norefferrer" href="https://ibb.co/b1z8zPv"><img src="https://i.ibb.co/b1z8zPv/Pic1.jpg" alt="Pic1">
-			<div class="caption">Project Three</div>
-			</a>
+			<div class="outer-wrapper">
+				<div class="wrapper">
+					<!-- project1 -->
+					<div class="slide one">
+						<a target="_blank" rel="noopenner norefferrer" href="https://ibb.co/b1z8zPv"><img src="https://i.ibb.co/b1z8zPv/Pic1.jpg" alt="Pic1">
+						<div class="caption">Project One</div>
+						</a>
+					</div>
+					<!-- project2 -->
+					<div class="slide one">
+						<a target="_blank" rel="noopenner norefferrer" href="https://ibb.co/b1z8zPv"><img src="https://i.ibb.co/b1z8zPv/Pic1.jpg" alt="Pic1">
+						<div class="caption">Project Two</div>
+						</a>
+					</div>
+					<!-- project3 -->
+					<div class="slide one">
+						<a target="_blank" rel="noopenner norefferrer" href="https://ibb.co/b1z8zPv"><img src="https://i.ibb.co/b1z8zPv/Pic1.jpg" alt="Pic1">
+						<div class="caption">Project Three</div>
+						</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div>
+	<!-- <div class="bumper">Bumper</div> -->
+	<div id="projects">
+	<section class="horizontal-section">
+		<!-- <div class="sticky-head">Projects</div> -->
+		<div class="sticky-wrapper">
+			<h1 class="sticky-head">Projects</h1>
+	<!-- <section class="sticky-head">Projects</section> -->
+			<div class="element-wrapper">
+				<div class="element"></div>
+				<div class="element"></div>
+				<div class="element"></div>
+				<div class="element"></div>
+				<div class="element"></div>
+				<div class="element"></div>
+				
+			</div>
+		</div>
+	</section>
+	</div>
+	<!-- <div class="bumper">Bumper</div> -->
+	<!-- Cert -->
+	<h1>Certificates</h1>
+	<div class="horizontal_slider">
+		<div class="slider_container">
+			<div class="item">
+				<img src="images/cert.jpg">
+			</div>
+			<div class="item">
+				<img src="images/cert.jpg">
+			</div>
+			<div class="item">
+				<img src="images/cert.jpg">
+			</div>
+			<div class="item">
+				<img src="images/cert.jpg">
+			</div>
+			<div class="item">
+				<img src="images/cert.jpg">
+			</div>
 			
 		</div>
 	</div>
@@ -82,5 +152,6 @@
 			</td>
 		</table>
 	</div>
+<script src="index.js"></script>
 </body>
 </html>
